@@ -1,4 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
 #pragma once
@@ -38,6 +38,7 @@ namespace CalculationManager
         Parentheses
     };
 
+    // maping all panal button to comamnd 
     enum class Command
     {
         // Commands for programmer calculators are omitted.

@@ -158,6 +158,9 @@ namespace CalculationManager
         }
     }
 
+#pragma region Operator 
+    //TODO: Can use template function common it?
+
     /// <summary>
     /// Change the current calculator engine to standard calculator engine.
     /// </summary>
@@ -209,6 +212,9 @@ namespace CalculationManager
         m_currentCalculatorEngine->ChangePrecision(static_cast<int>(CalculatorPrecision::ProgrammerModePrecision));
     }
 
+#pragma endregion Operator
+
+    // TODO: Main input
 
     /// <summary>
     /// Send command to the Calc Engine
